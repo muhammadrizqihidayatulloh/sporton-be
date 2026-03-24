@@ -17,9 +17,6 @@ importers:
       dotenv:
         specifier: ^17.3.1
         version: 17.3.1
-      expess:
-        specifier: 0.0.1-security
-        version: 0.0.1-security
       express:
         specifier: ^5.2.1
         version: 5.2.1
@@ -29,9 +26,6 @@ importers:
       mongoose:
         specifier: ^9.3.2
         version: 9.3.2
-      mongose:
-        specifier: 0.0.2-security
-        version: 0.0.2-security
       multer:
         specifier: ^2.1.1
         version: 2.1.1
@@ -304,9 +298,6 @@ packages:
     resolution: {integrity: sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==}
     engines: {node: '>= 0.6'}
 
-  expess@0.0.1-security:
-    resolution: {integrity: sha512-UgnpgjCF7WMTdWyLWzivOSkeQ4utbiv25q0cof6UIcI3K83fHcrjlvvRuK60BAxhP/i3BpVvfQffiOWr7M1zHQ==}
-
   express@5.2.1:
     resolution: {integrity: sha512-hIS4idWWai69NezIdRt2xFVofaF4j+6INOpJlVOLDO8zXGpUVEVzIYk12UUi2JzjEzWL3IOAxcTubgz9Po0yXw==}
     engines: {node: '>= 18'}
@@ -511,9 +502,6 @@ packages:
   mongoose@9.3.2:
     resolution: {integrity: sha512-4hMJA4vLAeNG6LnDwJImPYM+uJMVw+sFs7jtS/91OKOT7rzv19ytAAeswtAdWoinVBUVrzmClL/ZoPhcU5RL8w==}
     engines: {node: '>=20.19.0'}
-
-  mongose@0.0.2-security:
-    resolution: {integrity: sha512-XJUBQHhC/12+hWtrcB1Ww+gkxSzbxg4VdjpNlBQGvFoyPm1bErhA+3n/IkWbGCkavFB1OSycpvpCRphPsZXgLw==}
 
   mpath@0.9.0:
     resolution: {integrity: sha512-ikJRQTk8hw5DEoFVxHG1Gn9T/xcjtdnOKIU1JTmGjZZlg9LST2mBLmcX3/ICIbgJydT2GOc15RnNy5mHmzfSew==}
@@ -994,8 +982,6 @@ snapshots:
 
   etag@1.8.1: {}
 
-  expess@0.0.1-security: {}
-
   express@5.2.1:
     dependencies:
       accepts: 2.0.0
@@ -1212,8 +1198,6 @@ snapshots:
       - mongodb-client-encryption
       - snappy
       - socks
-
-  mongose@0.0.2-security: {}
 
   mpath@0.9.0: {}
 
